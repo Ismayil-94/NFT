@@ -1,0 +1,848 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    background-color: #e5e5e5;
+    margin-top: 30px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header .logo img {
+    width: 76px;
+    height: 42px;
+
+}
+
+.header .logo {
+    justify-content: center;
+}
+
+
+.header .menu-container {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.menu-container .menu {
+    list-style: none;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.menu {
+    width: 600px;
+    margin: 35px;
+    font-size: 20px;
+}
+
+.menu-container .menu li a {
+    color: #5A5A5A;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #CC00FF;
+}
+
+.right {
+    display: flex;
+    width: 320px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right button {
+    width: 161px;
+    height: 50px;
+    background-color: #CC00FF;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+
+}
+
+
+.right button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.icon button {
+    /* width: 50px;
+    border-radius: 50%;
+    display: flex; */
+    background-color: #edb4fb;
+}
+
+.icon button img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.head h2 {
+    color: #000;
+    font-weight: 600;
+    word-break: normal;
+    width: 260px;
+    height: 80px;
+    font-size: 50px;
+}
+
+.head p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #5A5A5A;
+}
+
+.head button {
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #da5ef9;
+    margin-top: 50px;
+}
+
+.head button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.line {
+    border-top: 1px solid #d2d2d2;
+    margin-top: 50px;
+}
+
+.container-photo {
+    position: relative;
+}
+
+.container-photo img {
+    width: 360px;
+    height: 390px;
+}
+
+.container-section {
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+.icon img {
+    width: 50px;
+
+}
+
+.head {
+    font-size: 30px;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+}
+
+.project .a {
+    background-color: #FFFFFF;
+    border-radius: 0px;
+    width: 179px;
+    height: 74px;
+}
+
+.project button p {
+    font-size: 18px;
+    color: #5A5A5A;
+}
+
+.project button .price {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    margin-top: 15px;
+}
+
+.project .b {
+    border-radius: 0px;
+    background-color: #FFFFFF;
+    border-radius: 0px;
+    width: 80px;
+    height: 74px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project .c {
+    border-radius: 0px;
+    width: 87px;
+    height: 74px;
+}
+
+.project p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #5A5A5A;
+}
+
+.project .bb {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    margin-top: 15px;
+}
+
+.project .cc {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-top: 15px;
+}
+
+.img-button {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-button button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.model img {
+    width: 40px;
+    height: 40px;
+
+}
+
+.model {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.model .models-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.vector-left {
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    margin-left: 124px;
+}
+
+.vector-left img {
+    width: 11px;
+    height: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.vector-right {
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    margin-left: 30px;
+    background-color: #CC00FF;
+}
+
+.vector-right img {
+    width: 11px;
+    height: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: #CC00FF
+}
+
+.header-category {
+    margin-top: 100px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.header-category h2 {
+    font-weight: 500;
+    color: #000;
+
+}
+
+
+.header-category a {
+    color: #CC00FF;
+    text-decoration: none;
+    font-size: 8px;
+}
+
+.art img {
+    width: 270px;
+    height: 270px;
+}
+
+.photos {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.art {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.art .wallpaper {
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 130px;
+    height: 30px;
+    border-radius: 0px;
+    border: none;
+    transition: all 0.3s;
+
+}
+
+.art .wallpaper:hover {
+    background-color: #CC00FF;
+}
+
+
+
+.art .wallpaper a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+
+}
+
+
+.art .wallpaper :hover {
+    color: #FFFFFF;
+}
+
+
+.live .auctions {
+    font-size: 20px;
+    font-weight: 500;
+    font: lighter;
+}
+
+.auctions {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.auctions .circle {
+    width: 20px;
+    height: 20px;
+    background-color: #00FF38;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.cards {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cards .men {
+    width: 270px;
+    height: 320px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.beard {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.cards .men img {
+    width: 235px;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 17px;
+    margin-left: 17px;
+
+}
+
+.live {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.men {
+    border-radius: 5px;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+}
+
+.men .beard img {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    border-radius: 50%;
+
+}
+
+.beard .true img {
+    background-color: #0038ff;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    transform: translate(-250%, -234%);
+}
+
+
+.head-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.men .person p {
+    position: absolute;
+    transform: translate(34%, 3%);
+    color: #5A5A5A;
+}
+
+.men h3 {
+    color: #CC00FF;
+    font-weight: lighter;
+    font-size: 16px;
+    display: flex;
+    width: 124px;
+    height: 19px;
+    margin-left: 17px;
+    margin-top: 17px;
+}
+
+
+.men .bid {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 230px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-left: 17px;
+}
+
+.bid p {
+    margin-left: 5px;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.bid span {
+    margin-right: 5px;
+    color: #5A5A5A;
+}
+
+.treanding {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.file {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.facebook {
+    width: 370px;
+    height: 370px;
+    background-color: #ffffff;
+    margin-top: 20px;
+
+}
+
+.facebook:hover {
+    border: 1px solid #000;
+    width: 372px;
+}
+
+.bundaberg img {
+    width: 100%;
+    height: 200px;
+}
+
+.by {
+    width: 100%;
+    padding: 10px;
+
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heart {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border: 1px solid #000;
+}
+
+.heart img {
+    position: absolute;
+    transform: translate(46%, 54%);
+    width: 20px;
+    height: 20px;
+}
+
+.left-bot p>span {
+    color: #5A5A5A;
+}
+
+.left-bot h3:hover {
+    color: #CC00FF;
+}
+
+.pice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pire h5 {
+    display: flex;
+    justify-content: space-evenly;
+    color: #5A5A5A;
+    margin-bottom: 10px;
+}
+
+.eth h5 {
+    margin-bottom: 10px;
+    color: #5A5A5A;
+}
+
+.bottom {
+    margin-top: 30px;
+}
+
+
+.top h3 {
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.creator {
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.leland {
+    width: 190px;
+    height: 315px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+    margin: 20px
+}
+
+.leland img {
+    width: 150px;
+    height: 110px;
+}
+
+.leland .call {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.call h4 {
+    color: #2e2e2e;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 20px;
+
+}
+
+.call p {
+    color: #5A5A5A;
+    margin-top: 10px;
+}
+
+.but button {
+    background-color: #F3C1FF;
+    width: 120px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+
+}
+
+
+.but button a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #5A5A5A;
+}
+
+
+.but button a:hover {
+    color: #ffffff;
+}
+
+.but button:hover {
+    background-color: #CC00FF;
+}
+
+
+.but {
+    padding: 10px;
+}
+
+
+.featured {
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+
+.asset {
+    justify-content: space-between;
+    margin-top: 25px;
+
+}
+
+.public h2 {
+    font-weight: 500;
+    font-size: 40px;
+
+}
+
+.public p {
+    margin-top: 25px;
+}
+
+
+.all button {
+    background-color: #FFFFFF;
+    width: 80px;
+    height: 40px;
+    margin-right: 25px;
+    border: none;
+}
+
+.all button a {
+    text-decoration: none;
+    color: #5A5A5A;
+    font-size: 16px;
+}
+
+.all button a:hover {
+    color: #FFFFFF;
+}
+
+.all button:hover {
+    background-color: #CC00FF;
+}
+
+.clay {
+    background-color: #FFFFFF;
+    width: 370px;
+    height: 462px;
+    border-radius: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+.teacup {
+    width: 330px;
+    height: 216px;
+}
+
+
+.teacup img {
+    width: 330px;
+    height: 216px;
+}
+
+
+.teacup .amir img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+
+}
+
+.teacup .amir {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.amir p {
+    font-size: 16px;
+    margin-right: 50px;
+    color: #5A5A5A;
+}
+
+.amir .star img {
+    width: 33px;
+    height: 16px;
+    border-radius: 0;
+}
+
+.star span {
+    margin-left: 5px;
+    color: #5A5A5A;
+}
+
+.pomeranian {
+    width: 100%;
+    height: 23px;
+}
+
+.pomeranian h3:hover{
+    color: #CC00FF;
+}
+
+.dogi {
+    border: 1px solid #5A5A5A;
+    width: 100%;
+    height: 62px;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.dogi .dog h4 {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.dog p {
+    color: #5A5A5A;
+    margin-top: 4px;
+}
+
+.dog p>span {
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.dogi .do{
+   margin-top: 10px;
+   color: #000;
+   font-weight: 600;
+}
+
+.rectangle{
+background-color: #ffffff;
+width: 1144px;
+height: 384px;
+border-radius: 10px;
+justify-content: space-between;
+position: relative;
+padding: auto;
+}
+
+
+
+.rectan img{
+    width: 170px;
+    height: 383px;
+    align-items: center;
+}
+
+.collect{
+    width: 451px;
+    height: 100px;
+    position: absolute;
+    transform: translate(23%,150%);
+}
+
+.collect h1{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.collect button{
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #CC00FF;
+    position:absolute;
+    transform: translate(2%,100%);
+}
+
+.collect button a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.mask{
+    display: flex;
+}
+.mask img{
+    width: 565px;
+    height: 385px;
+    margin-top: -2px; 
+}
+
+.tangel img{
+    width: 128px;
+    height: 383px;
+    position: absolute;
+    transform: translate(84%);
+}
